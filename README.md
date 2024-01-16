@@ -16,9 +16,7 @@ Welcome to the Spotify Web App project! This web app allows you to search for ar
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/Crasheroo/Spotify-Web-App`
-2. Open the `index.html` file in your web browser.
-3. Enter the name of an artist and click "Search" to get started.
+[Visit this page](https://crasheroo.github.io/Spotify-Web-App/)
 
 ## Project Structure
 
