@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Spotify Web App</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Spotify Web App</h1>
+
+    <div class="search-container">
+      <label for="artistName">Enter Artist Name:</label>
+      <input type="text" id="artistName" placeholder="Enter artist name...">
+      <button onclick="searchArtist()">Search</button>
+    </div>
+
+    <div class="mini-player" id="miniPlayer">
+      <img id="artistPhoto" class="artist-photo">
+      <p id="artistInfo">Artist: </p>
+      <p id="songInfo">Song: </p>
+      <audio controls id="audioPlayer">
+        Your browser does not support the audio tag.
+      </audio>
+    </div>
+
+    <p>Popular Songs</p>
+    
+    <div class="popular-songs" id="popularSongs"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
