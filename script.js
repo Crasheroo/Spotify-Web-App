@@ -35,6 +35,8 @@ const APIController = {
       const data = await result.json();
 
       if (data.artists.items.length > 0) {
+        document.querySelector(".mini-player").style.display = "block";
+        document.querySelector(".popular").style.display = "block";
         const artistId = data.artists.items[0].id;
         await this.displayPopularSongs(artistId);
       } else {
